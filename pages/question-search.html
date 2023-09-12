@@ -36,7 +36,29 @@
         <p class="text-heading">Get an answer to your question.</p>
         <div class="search-bar">
             <input type="search" placeholder="Type Any Question..." name="searchId" id="searchId">
-            <button class="searchButton">Search</button>
+            <button class="searchButton" onkeyup="myFunction()">Search</button>
+            <div class="search-result">
+                <ul>
+                    <li><a href="#">Adele</a></li>
+                    <span>
+                        <div class="inner"></div>
+                    </span>
+                    <li><a href="#">Agnes</a></li>
+
+                    <span>
+                        <div class="inner1"></div>
+                    </span>
+                    <li><a href="#">Bob</a></li>
+
+                    <span>
+                        <div class="inner2"></div>
+                    </span>
+                    <li><a href="#">Cindy</a></li>
+                    <span>
+                        <div class="inner3"></div>
+                    </span>
+                </ul>
+            </div>
         </div>
     </center>
     <div class="footer">
@@ -44,6 +66,8 @@
             <script type="text/javascript">document.write(new Date().getFullYear())</script>
         </p>
     </div>
+
+    <script src="/search/index.js"></script>
 </body>
 
 </html>
